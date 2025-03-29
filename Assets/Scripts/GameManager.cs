@@ -43,8 +43,8 @@ public class GameManager : MonoBehaviour
 
     void UpdateUI()
     {
-        timerText.text = "時間: " + gameTime.ToString("F0");
-        scoreText.text = "蘋果數: " + score;
+        timerText.text = "時間：" + gameTime.ToString("F0");
+        scoreText.text = "蘋果數：" + score;
     }
 
     void CheckGameOver()
